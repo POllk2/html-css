@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio-011 Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Adaptação de material para multiplas telas</h1>
+    <p>Veja como vai ficar esse "site" em varios dispositivos! Use o responsiviwer ou coloque zoom na pagina!</p>
+    <picture>
+        <!---Pode-se adicionar quantos tamanhos que quiser em seu código, mas, lembre-se de respeitar a hierarquia da imagem sendo a principal sendo o comando img e o restante como source/fonte.-->
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png"><!---Essa é a terceira versão para telas pequenas;-->
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png"><!---Essa é a segunda versão pra telas médias;-->
+        <img src="Imagens/ImagemG.png" alt="Foto grande flexível"><!---Essa é a imagem princípal! Ela aparecera em telas maiores.-->
+    </picture>
+
+    <h1>Midias em áudios</h1>
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"><!---Priorize o modo mp3 por ser mais leve, deixando o site mais rápido;-->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg"><!---É o modo médio, não pesa tanto mas não é leve, deixa o site nem rápido e nem lento-->
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!---Evitar o modo wav pois é um formato MUITO PESADO, e vai deixar o site lento!-->
+        <p>Infelizmente seu navegador não consegue repoduzir esse audio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3!</a></p>
+     </audio>
+</body>
+</html>

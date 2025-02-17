@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*Fonte do corpo*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    
+/*Fonte do titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+main{
+    background-color: #d1c3a9;
+    border-radius: 20px;
+    max-width: 600px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 45px;
+}
+*{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Orbitron', sans-serif;
+    padding-bottom: 5px;
+}
+
+p{
+    padding-top: 5px;
+    font-size: 1.3em;
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+img#princi{
+    padding-top: 10px;
+}
+html{
+    background-image: linear-gradient(to right, #486773, #0E3659, #010B40);
+    /*Tem essa cor aqui #BDBFAE caso eu queira usar em algo "Capaz que não achei feia"*/
+}
+
+a#exinfo{
+    text-decoration: none;
+    color: #486773;
+}
+
+div.menus{
+    margin: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    align-items: center;
+    background-color: #486773;
+    border: 2px solid darkgray;
+    text-align: center;
+    height: 300;
+    width:  300;
+    padding-top: 5px;
+    
+}
+
+h1#pag04{
+    background-color: #d1c3a9;
+    max-width: 450px;
+    margin: auto;
+    border-radius: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+div.menus:hover{
+    background-color: #0E3659;
+    cursor: pointer;
+}
+
+a#pg4{
+    padding-top: 30px;
+}
+
+a:visited{
+    text-decoration-style: none;
+}
+
+
