@@ -7,17 +7,32 @@
 
     <style>
         body{
-            height: 100vh;
+            /* height: 100vh;
             background-color: black;
             background-image: url(Imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed; */
 
+            /* Shorthande back ground
+            
+            1 color
+            2 image
+            3 position
+            4 repeat
+            5 "size"
+            6 attechment
+            
+            */
+            background: black url(Imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
+            
+        }
+    
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 2px solid darkblue;
