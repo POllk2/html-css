@@ -42,9 +42,9 @@ nav > a{
 }
 
 main{
-    background-color: var(--cor3);
+    background-color: rgba(173, 173, 173, 0.932);
     max-width: 1000px;
-    margin: auto;
+    margin: ;
     padding: 30px;
 }
 
@@ -55,7 +55,7 @@ h2, h3{
     text-transform: uppercase;
     color: whitesmoke;
     font-family: 'Barlow', sans-serif;
-    background-image: linear-gradient(to right, gray, black);
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.041), rgba(39, 39, 39, 0.808));
 }
 
 p.texto{
@@ -63,11 +63,15 @@ p.texto{
     text-align: justify;
     text-indent: 5px;
     font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
     font-family: 'Oswald', sans-serif;
 }
 
-div > img{
+img.fotos{
     margin: auto;
+    display: block;
+    padding: 15px;
 }
 
 footer{
