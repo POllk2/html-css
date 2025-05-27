@@ -15,7 +15,7 @@
 }
 
 body{
-    background-image: linear-gradient(45deg, #0D0D0D,#595857, #403F3E);
+    background-image: linear-gradient(340deg, #0D0D0D,#595857, #403F3E);
 }
 
 header{
@@ -26,8 +26,10 @@ header{
 h1#titulo{
     text-align: left;
     font-size: 3.5em;
+    color: rgb(182, 180, 180);
     font-weight: bold;
     font-family: "Lexend Tera", sans-serif;
+    text-shadow: 5px 6px 6px black;
 }
 
 nav{
@@ -42,10 +44,11 @@ nav > a{
 }
 
 main{
-    background-color: rgba(173, 173, 173, 0.932);
+    background-image: linear-gradient(340deg, #0d0d0d7a,#595857a2, #403f3e46);
     max-width: 1000px;
-    margin: ;
+    margin: auto;
     padding: 30px;
+    
 }
 
 h2, h3{
@@ -56,6 +59,7 @@ h2, h3{
     color: whitesmoke;
     font-family: 'Barlow', sans-serif;
     background-image: linear-gradient(to right, rgba(128, 128, 128, 0.041), rgba(39, 39, 39, 0.808));
+    text-shadow: -6px 8px 14px black;
 }
 
 p.texto{
@@ -73,6 +77,20 @@ img.fotos{
     display: block;
     padding: 15px;
 }
+
+div#video{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    padding: 10px 0px 10px 0px;
+}
+
+div#video > iframe{
+    display: block;
+    margin: auto;
+    max-width: 100vw;
+}
+
 
 footer{
     background-color: var(--cor3)
