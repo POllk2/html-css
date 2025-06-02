@@ -19,28 +19,40 @@ body{
 }
 
 header{
-    background-color: var(--cor4);
+    background-image: linear-gradient( to right, #3f3e3e, rgb(175, 171, 171));
     padding: 14px;
+    
 }
 
 h1#titulo{
     text-align: left;
     font-size: 3.5em;
-    color: rgb(182, 180, 180);
+    color: rgb(230, 225, 225);
     font-weight: bold;
     font-family: "Lexend Tera", sans-serif;
     text-shadow: 5px 6px 6px black;
 }
 
 nav{
-    background-color:var(--cor2) ;
+    background-image: linear-gradient( to right, #3f3e3e, rgb(175, 171, 171));
     padding: 8px;
 }
 
 nav > a{
     text-decoration: none;
     text-transform: uppercase;
-    padding-left: 4px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 4px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: lightgray;
+    padding: 8px;
+    background-color: #3f3e3e;
+    border-radius: 4px;
+    transition-duration: 0.5s;
 }
 
 main{
@@ -70,6 +82,19 @@ p.texto{
     color: rgb(0, 0, 0);
     font-weight: normal;
     font-family: 'Oswald', sans-serif;
+}
+
+p.texto > a{
+    text-decoration: none;
+    color: grey;
+}
+
+p.texto > a:hover{
+    text-decoration: underline;
+}
+
+p.texto > a::after{
+    content: '\1F517';
 }
 
 img.fotos{
