@@ -11,24 +11,24 @@
             <h1>Titulo nome do site</h1>
         </header>
     <nav>
-        <a href="#">aaa</a>
-        <a href="#">aaaa</a>
-        <a href="#">aaaaa</a>
-        <a href="#">aaaaaa</a>
+        <a href="#">Home</a>
+        <a href="#">Noticias</a>
+        <a href="#">Fale conosco</a>
+        <a href="#">Sla algo para por aqui</a>
     </nav>
 
     <main>
-        <div>
+        <div id="tabelapaises">
                 <table>
                     <caption>Paises para viagem</caption>
     
                 
                     <thead>
                         <tr>
-                            <td>Pais</td>
-                            <td>Cidade</td>
-                            <td>Horas de viagem</td>
-                            <td>Valor da viagem</td>
+                            <th scope="col">Pais</th>
+                            <th scope="col">Capital</th>
+                            <th scope="col">Área</th>
+                            <th scope="col">PIB</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -81,8 +81,16 @@
     
         </div>
 
+        <div>
 
-        <h2>Opinioes destaques sobre as Cidades</h2>
+            <h2>Informações destaques sobre as Capitais</h2>
+
+            <iframe id="telacidades" name="frame" srcdoc="Escolha uma cidade na tabela acima para descobrir mais!" frameborder="0"></iframe>
+
+
+        </div>
+
+
     </main>
 </body>
 </html>
