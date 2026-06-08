@@ -1,3 +1,10 @@
+/*paleta de cores*/
+:root{
+
+    --cor1: #D18205
+    --cor2:
+}
+
 *{
     margin:0px;
 }
@@ -60,7 +67,13 @@ caption{
     text-align: left;
 }
 
-div#tabelapaises{
+div#table{
+    height: 28vw;
+    background-image: url(/);
+    background-position: top;
+}
+
+table#tabelapaises{
     margin-left: 2vw;
     border: 2px solid black;
     background-color: rgb(255, 255, 255);
