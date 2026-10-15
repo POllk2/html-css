@@ -22,5 +22,5 @@ section#intro{
 }
 
 section#intro > h1{
-    text:;
+    padding: 10px;
 }
